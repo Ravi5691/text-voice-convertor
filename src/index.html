@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text to Speech Convertor</title>
     <link href="./output.css" rel="stylesheet">
-    <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-sexyblue w-screen">
+<body class="bg-sexyblue w-screen overflow-x-hidden">
  <div class="flex-col w-screen h-screen">
-    <header class="fixed top-0 left-0 w-screen bg-purpleblue bg-opacity-50 backdrop-blur-md h-20 flex gap-12 items-center justify-center shadow-lg">
-            <logo> <img src="./img/31_08_2024 23_24_11.png" alt="Logo" class="w-48  min-w-36"></logo>
+    <header class=" w-full max-w-full fixed top-0 left-0  bg-purpleblue bg-opacity-50 backdrop-blur-md h-16 flex gap-12 items-center justify-center shadow-lg">
+            <logo> <img src="./img/31_08_2024 23_24_11.png" alt="Logo" class="w-44  min-w-36"></logo>
             <span class=" w-[40%]"></span>
             <button class="text-white text-xl font-semibold"> Home </button>
             <button class="text-white text-xl font-semibold"> Pricing </button>
@@ -18,7 +18,7 @@
             <button class="text-white text-xl font-semibold"> LogIn </button>
             <button class="text-white text-xl font-semibold"> Mode </button>
     </header>
-    <content class=" w-screen h-full flex-row m-36 ">
+    <content class="h-full flex-row flex-wrap m-36 w-full max-w-full overflow-x-hidden">
 
         <div class="font-bold text-center w-screen mt-24 text-slate-100 mb-24"> 
             <div class="mb-10 text-8xl">
@@ -28,7 +28,7 @@
             </div>
             <span class="text-4xl">"Basic TTS Converter: Simple and Functional Text-to-Speech"</span>
         </div>
-        <div class=" text-center flex-col ml-[25%] mr-[25%] ">
+        <div class=" text-center flex-col flex-wrap ml-[25%] mr-[25%] text-wrap">
             <span class="text-3xl font-semibold text-white underline ">Welcome to Basic TTS Converter</span>
             <br>
             <br>
@@ -51,12 +51,65 @@
         </text>
         </div>
         <p class="text-center text-white text-shadow-lg text-4xl font-bold"> Choose Which character voice you want !</p>
-        <div class="flex-col object-center">
-            <span class=" bg-blue-400 w-[30%] h-[30%]">imag 1</span>
-            <span> img 2</span>
+        <div class="flex items-center justify-center m-20 mt-10 gap-20 flex-wrap">
+            <span class=" w-40 h-40 bg-lightpink m-20">
+                <img src="" alt="">
+            </span>
+            <span class=" w-40 h-40 bg-lightpink m-20">
+                <img src="" alt="">
+            </span>
         </div>
     </content>
-    <footer></footer>
+    <footer class="bg-purpleblue text-white py-8 bg-opacity-50 backdrop-blur-mdsha w-full max-w-full overflow-x-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-wrap justify-between items-center gap-20 ">
+      
+            <!-- Footer Description -->
+            <div class="w-full lg:w-1/3 mb-6 lg:mb-0">
+              <h3 class="text-xl font-semibold">About Us</h3>
+              <p class="mt-2 text-gray-400">
+                Our Text-to-Speech Converter offers an easy and efficient way to transform your written content into clear audio. Whether you’re looking to enhance accessibility or create audio content, we’ve got you covered.
+              </p>
+            </div>
+      
+            <!-- Navigation Links -->
+            <div class="w-full lg:w-1/3 mb-6 lg:mb-0">
+              <h3 class="text-xl font-semibold">Quick Links</h3>
+              <ul class="mt-2">
+                <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                <li><a href="#" class="text-gray-400 hover:text-white">Features</a></li>
+                <li><a href="#" class="text-gray-400 hover:text-white">Pricing</a></li>
+                <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+              </ul>
+            </div>
+      
+            <!-- Contact Information -->
+            <div class="w-full lg:w-1/3">
+              <h3 class="text-xl font-semibold">Contact Us</h3>
+              <p class="mt-2 text-gray-400">
+                <strong>Email:</strong> support@vocalize.com<br>
+                <strong>Phone:</strong> +1 (123) 456-7890
+              </p>
+              <div class="mt-4">
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+            <div>
+                <img src="./img/31_08_2024 23_24_11.png " alt=" Logo " class="w-40 mr-52">
+            </div>
+      
+          </div>
+      
+          <div class="mt-8 border-t border-gray-700 pt-4 text-center text-gray-400">
+            <p>&copy; 2024 VOCALIZE . All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
  </div>    
 </body>
 </html>
