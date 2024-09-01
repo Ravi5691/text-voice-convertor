@@ -7,9 +7,9 @@
     <link href="./output.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-sexyblue w-screen overflow-x-hidden">
+<body class="bg-sexyblue w-screen overflow-x-hidden scroll-smooth">
  <div class="flex-col w-screen h-screen">
-    <header class=" w-full max-w-full fixed top-0 left-0  bg-purpleblue bg-opacity-50 backdrop-blur-md h-16 flex gap-12 items-center justify-center shadow-lg">
+    <header class=" w-full max-w-full border-b-2 border-white border-opacity-50 fixed top-0 left-0  bg-purpleblue bg-opacity-50 backdrop-blur-md h-16 flex gap-12 items-center justify-center shadow-lg">
             <logo> <img src="./img/logo.png" alt="Logo" class="w-44  min-w-36"></logo>
             <span class=" w-[40%]"></span>
             <button class="text-white text-xl font-semibold"> <a href="./home.html"> Home </a></button>
@@ -34,10 +34,13 @@
             <br>
             <span class="text-xl font-medium text-white">Experience simple and functional text-to-speech conversion with our tool. Ideal for straightforward applications where high naturalness isn't a priority, our TTS converter delivers clear and understandable speech synthesis.</span>
         </div>
+        <div class="text-white flex justify-center items-center font-bold text-2xl mt-20">
+          <button class="bg-purpleblue p-5 rounded-3xl shadow-2xl border-white border-2">Get Started</button>
+        </div>
         <div class="flex justify-center items-center">
-        <video class="m-20 w-[45%] bg-lightpink h-[48%]  mt-36 mb-36"> 
+        <video class="m-20 w-[45%] bg-lightpink h-[48%] shadow-2xl rounded-lg mt-32 mb-36"> 
         </video>
-        <text class="text-white text-wrap mr-20 h-[48%] w-[45%] " >
+        <text class="text-white text-wrap mr-20  mt-32 mb-36 h-[48%] w-[45%] " >
         <span class="font-bold text-3xl underline"> How It Works: </span>
         <br>
         <br>
@@ -52,15 +55,15 @@
         </div>
         <p class="text-center text-white text-shadow-lg text-4xl font-bold"> Choose Which character voice you want !</p>
         <div class="flex items-center justify-center m-20 mt-10 gap-20 cursor-pointer flex-wrap">
-            <span class=" w-40 h-40 rounded-md bg-lightpink m-20">
+            <span class=" w-40 h-40 rounded-md bg-lightpink shadow-lg m-20">
                 <img src="./img/male.png" alt="male">
             </span>
-            <span class=" w-40 h-40 rounded-md bg-lightpink m-20">
+            <span class=" w-40 h-40 rounded-md bg-lightpink shadow-lg m-20">
                 <img src="./img/female.png"  alt="female">
             </span>
         </div>
     </content>
-    <footer class="bg-purpleblue text-white py-8 bg-opacity-50 backdrop-blur-mdsha w-full max-w-full overflow-x-hidden">
+    <footer class="bg-purpleblue text-white py-8 bg-opacity-50 border-t-2 border-white border-opacity-50 backdrop-blur-mdsha w-full max-w-full overflow-x-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex flex-wrap justify-between items-center gap-20 ">
       
